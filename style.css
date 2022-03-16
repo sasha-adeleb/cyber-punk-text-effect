@@ -8,9 +8,12 @@ body {
 .container {
   height: 100%;
   width: 100%;
+  padding: -400px;
+  margin: 10px;
+  writing-mode: vertical-lr;
   justify-content: center;
-  align-items: center;
-  display: flex;
+  transform: rotate(180deg);
+  display: fixed;
 }
 .text {
   font-weight: 100;
